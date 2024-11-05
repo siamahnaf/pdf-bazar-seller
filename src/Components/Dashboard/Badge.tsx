@@ -11,7 +11,7 @@ const Badge = () => {
 
     if (!data.getProfile.seller?.need_review) {
         return (
-            <div className="mt-6 w-max mx-auto px-10 text-center border border-solid border-gray-200 py-5 rounded-md">
+            <div className="mt-6 w-max px-10 text-center border border-solid border-gray-200 py-5 rounded-md">
                 <LuCheckCircle className="text-4xl mx-auto text-green-600" />
                 <h5 className="text-green-600 font-semibold mt-1">Verified</h5>
             </div>
